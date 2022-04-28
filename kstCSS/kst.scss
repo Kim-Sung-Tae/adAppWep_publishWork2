@@ -1,21 +1,34 @@
 
 
+
 .sec1{
     background-image: url("/adWepApp_2/images/Cloud.png");
     background-size: 100% auto;
     background-color: #f24a1f;
     background-repeat: no-repeat;
+    font-family: 'Jua', sans-serif;
+    font-weight: 800;
 
-    &:after{
+    &::after{
         content: "";
         width:100%;
-        height: 100%;
         background-image: url("/adWepApp_2/images/humanGroup.png");
-        background-size: 100% auto;
-        background-repeat: no-repeat; 
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-position:center top;
+        position: absolute;
+        padding-top: 27%;
+        bottom: 0;
+        
+
+       
         
     }
     .MainContent{
-        width: 100%;
+        width: 80%;
+    }
+    .eventPeriod{
+        font-size: small;
+        opacity: 0.5;
     }
 }
