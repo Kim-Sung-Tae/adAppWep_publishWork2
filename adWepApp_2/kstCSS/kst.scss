@@ -1,0 +1,92 @@
+*{
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight:900;
+}
+
+
+.sec1{
+    background-image: url("/adWepApp_2/images/Cloud.png");
+    background-size: 100% auto;
+    background-color: #f24a1f;
+    background-repeat: no-repeat;
+    font-family: 'Jua', sans-serif;
+    font-weight: 800;
+
+    &::after{
+        content: "";
+        width:100%;
+        background-image: url("/adWepApp_2/images/humanGroup.png");
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-position:center top;
+        position: absolute;
+        padding-top: 27%;
+        bottom: 0;
+        
+    }
+    .MainContent{
+        width: 80%;
+    }
+    .eventPeriod{
+        font-size: small;
+        opacity: 0.5;
+    }
+}
+
+.sec2{
+  
+    .Dumbbel{
+        
+    }
+    // #test-code-1 li:nth-child(2n) {color:green}
+    .swtitle span{
+        font-size: 2rem;
+        @media(max-width:678px){
+            font-size:1rem;
+        }
+    }
+    .swtitle > span:nth-child(2n){
+        color: #f24a1f;
+    }
+    .swsubject{
+        color: gray;
+    }
+    .imgtag{
+        display:block;
+        top:0;
+        left:0;
+        background-color: gray;
+        opacity: 0.8;
+    }
+    .swline1{
+        color: gray;
+        font-size: 0.6rem;
+        justify-content: space-between;
+    }
+    .maincontent2{
+        .swline1{
+            color: gray;
+            font-size: 0.6rem;
+            justify-content: space-between;
+            .page{
+                bottom: unset;
+                width: unset;
+            }
+        }      
+    }
+    .swline2{
+        font-size: 1.5rem;
+     
+    }
+    .swline3{
+        color: #f24a1f;
+        font-size: 2rem;
+        text-align-last:justify;
+    }
+    .SWleftbutton{
+        color: black;
+    }
+    .SWrightbutton{
+        color: black;
+    }
+}
