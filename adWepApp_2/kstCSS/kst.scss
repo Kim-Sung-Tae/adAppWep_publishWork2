@@ -4,6 +4,7 @@
 }
 
 
+
 .sec1{
     background-image: url("/adWepApp_2/images/Cloud.png");
     background-size: 100% auto;
@@ -25,7 +26,7 @@
         
     }
     .MainContent{
-        width: 80%;
+        width:80%;
     }
     .eventPeriod{
         font-size: small;
@@ -41,8 +42,8 @@
     // #test-code-1 li:nth-child(2n) {color:green}
     .swtitle span{
         font-size: 2rem;
-        @media(max-width:678px){
-            font-size:1rem;
+        @media(max-width:775px){
+            font-size:1.4rem;
         }
     }
     .swtitle > span:nth-child(2n){
@@ -76,12 +77,18 @@
     }
     .swline2{
         font-size: 1.5rem;
+        @media(max-width:775px){
+            font-size: 0.9rem;
+        }
      
     }
     .swline3{
         color: #f24a1f;
         font-size: 2rem;
         text-align-last:justify;
+        @media(max-width:775px){
+            font-size: 1rem;
+        }
     }
     .SWleftbutton{
         color: black;
@@ -90,3 +97,57 @@
         color: black;
     }
 }
+
+.sec3{
+    background-color: #fff9ed;
+   
+
+    .eventsubject{
+        font-size: 2rem;
+        &::before{
+            content: "";
+            background-image: url("/adWepApp_2/images/Heart.png");
+            content: "";
+            background-repeat: no-repeat;
+            padding-top: 5%;
+            background-size: 100% auto;
+            padding-right: 5%;
+            position: absolute;
+            transform: translate(-80%, -65%);
+        }
+    }
+    .eventsubject > span{
+        color: #fe4e1b;
+    }
+    .eventtext{
+        font-size: 0.5rem;
+        color: gray;
+    }
+    .couponbox{
+
+        .coupon_leftin{
+            .coupon_line_2{
+                font-size: 4rem;
+                line-height: 1;
+            }
+            .coupon_line_3{
+                font-size: 0.9rem;
+                opacity: 0.5;
+            }
+        }
+        .coupon_rightin{
+            background-color: #ff8106;
+            .coupon_rightin_text{
+                white-space: pre-line;
+                opacity: 0.5;
+            }
+            
+           
+        }
+    }
+}
+.footer{
+    background-color: #fff700;
+}
+
+// #ff8106
