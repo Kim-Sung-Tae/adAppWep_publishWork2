@@ -36,9 +36,7 @@
 
 .sec2{
   
-    .Dumbbel{
-        
-    }
+    
     // #test-code-1 li:nth-child(2n) {color:green}
     .swtitle span{
         font-size: 2rem;
@@ -104,6 +102,11 @@
 
     .eventsubject{
         font-size: 2rem;
+
+        @media(max-width:450px){
+            font-size: 1.8rem;
+        }
+
         &::before{
             content: "";
             background-image: url("/adWepApp_2/images/Heart.png");
@@ -148,6 +151,10 @@
 }
 .footer{
     background-color: #fff700;
-} 
+
+}
+
+
+
 
 // #ff8106
