@@ -1,6 +1,5 @@
 * {
   font-family: 'Black Han Sans', sans-serif;
-  font-weight: 900;
 }
 
 .sec1 {
@@ -37,9 +36,9 @@
   font-size: 2rem;
 }
 
-@media (max-width: 678px) {
+@media (max-width: 775px) {
   .sec2 .swtitle span {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -84,10 +83,22 @@
   font-size: 1.5rem;
 }
 
+@media (max-width: 775px) {
+  .sec2 .swline2 {
+    font-size: 0.9rem;
+  }
+}
+
 .sec2 .swline3 {
   color: #f24a1f;
   font-size: 2rem;
   text-align-last: justify;
+}
+
+@media (max-width: 775px) {
+  .sec2 .swline3 {
+    font-size: 1rem;
+  }
 }
 
 .sec2 .SWleftbutton {
@@ -96,5 +107,64 @@
 
 .sec2 .SWrightbutton {
   color: black;
+}
+
+.sec3 {
+  background-color: #fff9ed;
+}
+
+.sec3 .eventsubject {
+  font-size: 2rem;
+}
+
+@media (max-width: 450px) {
+  .sec3 .eventsubject {
+    font-size: 1.8rem;
+  }
+}
+
+.sec3 .eventsubject::before {
+  content: "";
+  background-image: url("/adWepApp_2/images/Heart.png");
+  content: "";
+  background-repeat: no-repeat;
+  padding-top: 5%;
+  background-size: 100% auto;
+  padding-right: 5%;
+  position: absolute;
+  -webkit-transform: translate(-80%, -65%);
+          transform: translate(-80%, -65%);
+}
+
+.sec3 .eventsubject > span {
+  color: #fe4e1b;
+}
+
+.sec3 .eventtext {
+  font-size: 0.5rem;
+  color: gray;
+}
+
+.sec3 .couponbox .coupon_leftin .coupon_line_2 {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.sec3 .couponbox .coupon_leftin .coupon_line_3 {
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+
+.sec3 .couponbox .coupon_rightin {
+  background-color: #ff8106;
+}
+
+.sec3 .couponbox .coupon_rightin .coupon_rightin_text {
+  white-space: pre-line;
+  opacity: 0.5;
+}
+
+.footer {
+  background-color: #fff700;
 }
 /*# sourceMappingURL=kst.css.map */
